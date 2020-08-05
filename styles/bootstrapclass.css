@@ -3,6 +3,10 @@
     color: #f9ba32;
 }
 
+.card{
+    width: 100%;
+}
+
 /*bg class*/
 .bg-coal{
     background: #2F3131;
@@ -16,6 +20,7 @@
 .bg-bone{
     background: #f8f1e5; 
 }
+
 
 .coal{
     color: #2F3131;

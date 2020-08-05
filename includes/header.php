@@ -29,7 +29,7 @@
     <title>Cristian Gonzalez</title>
 
   </head>
-  <body class="bg-bone">
+  <body>
     
     <header>
 

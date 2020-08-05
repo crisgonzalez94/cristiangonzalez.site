@@ -14,7 +14,7 @@
 <script>
     let home_link = document.getElementById('home-link');
 
-    home_link.className += 'active';
+    home_link.className += 'active  ';
 
 </script>
 

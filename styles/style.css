@@ -2,6 +2,7 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+
 .navbar{
     padding-top: 0;
     padding-bottom: 0;
@@ -27,4 +28,13 @@
 }
 .social-link:active{
     color: #426e86;
+}
+
+.card-img{
+    width: 200px;
+    height: 200px;
+}
+
+.btn-download{
+    width: 100%;
 }
