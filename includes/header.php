@@ -34,27 +34,27 @@
     <header>
 
       <nav class="navbar navbar-expand-lg navbar-dark bg-coal">
-        <a class="navbar-brand" href="#">Cristian Gonzalez</a>
+        <a class="navbar-brand tooltips" href="index.php"  data-toggle="tooltip" data-placement="bottom" title="Back to home">Cristian Gonzalez</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item active tooltips" data-toggle="tooltip" data-placement="bottom" title="Back to home">
+              <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Software</a>
+            <li class="nav-item tooltips" data-toggle="tooltip" data-placement="bottom" title="Try my open software!">
+              <a class="nav-link" href="software.php">Software</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Youtube Channel</a>
+            <li class="nav-item tooltips" data-toggle="tooltip" data-placement="bottom" title="Visit my channel">
+              <a class="nav-link" href="youtube-channel.php">Youtube Channel</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+            <li class="nav-item tooltips" data-toggle="tooltip" data-placement="bottom" title="View services">
+              <a class="nav-link" href="services.php">Services</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+            <li class="nav-item tooltips" data-toggle="tooltip" data-placement="bottom" title="Contact me">
+              <a class="nav-link" href="contact.php">Contact</a>
             </li>
 
           </ul>
@@ -63,16 +63,16 @@
           <div class="form-inline my-2 my-lg-0">
 
             <!--Facebook-->
-            <a class="nav-link social-link" id='facebook-link' target="_blank" href="https://www.facebook.com/cristiannazarenogonzalez94" data-toggle="tooltip" data-placement="bottom" title="Talk to me on facebook!">
+            <a class="nav-link social-link toolstips"  target="_blank" href="https://www.facebook.com/cristiannazarenogonzalez94" data-toggle="tooltip" data-placement="bottom" title="Talk to me on facebook!">
               <i class="fab fa-facebook-square"></i>
             </a>
-            <a class="nav-link social-link" id='facebook-link' target="_blank" href="https://www.instagram.com/developeronfreetimes/" data-toggle="tooltip" data-placement="bottom" title="Visit to me on Instagram!">
+            <a class="nav-link social-link toolstips" target="_blank" href="https://www.instagram.com/developeronfreetimes/" data-toggle="tooltip" data-placement="bottom" title="Visit to me on Instagram!">
               <i class="fab fa-instagram"></i>
             </a>
-            <a class="nav-link social-link" id='facebook-link' target="_blank" href="https://twitter.com/crisgonzalez94" data-toggle="tooltip" data-placement="bottom" title="Folow me on Twitter!">
+            <a class="nav-link social-link toolstips" target="_blank" href="https://twitter.com/crisgonzalez94" data-toggle="tooltip" data-placement="bottom" title="Folow me on Twitter!">
               <i class="fab fa-twitter-square"></i>
             </a>
-            <a class="nav-link social-link" id='facebook-link' target="_blank"  href="https://www.youtube.com/channel/UCTfVTTAkvF7KF4CF7U64ORQ?view_as=subscriber" data-toggle="tooltip" data-placement="bottom" title="Visit my channel!">
+            <a class="nav-link social-link toolstips" target="_blank"  href="https://www.youtube.com/channel/UCTfVTTAkvF7KF4CF7U64ORQ?view_as=subscriber" data-toggle="tooltip" data-placement="bottom" title="Visit my channel!">
               <i class="fab fa-youtube-square"></i>
             </a>
           </div>

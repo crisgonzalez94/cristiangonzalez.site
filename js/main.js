@@ -1,12 +1,30 @@
 window.addEventListener("load", function(){
     
     //Social networks links
-    let facebook_link = document.getElementById('facebook-link');
+    let toolstips = document.getElementsByClassName('toolstips');
 
-    facebook_link.addEventListener("mouseover" , function(){
+    console.log(toolstips.length);
 
-        $('[data-toggle="tooltip"]').tooltip();
+    //Loop over toolstips elements in frontend for aply tooltip boostrap function
+    for(i=0;i<=toolstips.length;i++){
+        toolstips[i].addEventListener("mouseover" , function(){
+        
+            $('[data-toggle="tooltip"]').tooltip();
+        
+        });
+    }
 
-    });
+    /*
+    for(tooltip in toolstips){
+        
+        toolstips[tooltip].addEventListener("mouseover" , function(){
+        
+            $('[data-toggle="tooltip"]').tooltip();
+        
+        });
+        
+        
+    }
+    */
 
 });
