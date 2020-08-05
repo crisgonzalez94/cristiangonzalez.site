@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 
     <!--Here there custom bootstrap class for colors and backgrounds-->
-    <link rel="stylesheet" href="styles/bootstrap-class.css">
+    <link rel="stylesheet" href="styles/bootstrapclass.css">
 
     <!--Style-->
     <link rel="stylesheet" href="styles/style.css">
@@ -41,20 +41,20 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active tooltips" data-toggle="tooltip" data-placement="bottom" title="Back to home">
-              <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item tooltips" data-toggle="tooltip" data-placement="bottom" title="Back to home">
+              <a class="nav-link" id='home-link' href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item tooltips" data-toggle="tooltip" data-placement="bottom" title="Try my open software!">
-              <a class="nav-link" href="software.php">Software</a>
+              <a class="nav-link" id='software-link' href="software.php">Software</a>
             </li>
             <li class="nav-item tooltips" data-toggle="tooltip" data-placement="bottom" title="Visit my channel">
-              <a class="nav-link" href="youtube-channel.php">Youtube Channel</a>
+              <a class="nav-link" id='youtube-channel-link' href="youtube-channel.php">Youtube Channel</a>
             </li>
             <li class="nav-item tooltips" data-toggle="tooltip" data-placement="bottom" title="View services">
-              <a class="nav-link" href="services.php">Services</a>
+              <a class="nav-link" id='services-link' href="services.php">Services</a>
             </li>
             <li class="nav-item tooltips" data-toggle="tooltip" data-placement="bottom" title="Contact me">
-              <a class="nav-link" href="contact.php">Contact</a>
+              <a class="nav-link" id='contact-link' href="contact.php">Contact</a>
             </li>
 
           </ul>
