@@ -1,0 +1,30 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-toggler{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-link{
+    padding: 0;
+}
+.social-link{
+    color: white;
+    font-size: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.social-link:hover{
+    color: #f9ba32;
+}
+.social-link:active{
+    color: #426e86;
+}

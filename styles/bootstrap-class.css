@@ -1,0 +1,29 @@
+/*bg class*/
+.bg-coal{
+    background: #2F3131;
+}
+.bg-sunshine{
+    background: #f9ba32;
+}
+.bg-steel-blue{
+    background: #426e86;
+}
+.bg-bone{
+    background: #f8f1e5; 
+}
+
+.coal{
+    color: #2F3131;
+}
+.sunshine{
+    color: #f9ba32;
+}
+.steel-blue{
+    color: #426e86;
+}
+.bone{
+    color: #f8f1e5; 
+}
+.white{
+    color: #fff;
+}

@@ -1,0 +1,3 @@
+fonts:
+    Google fonts: https://fonts.google.com/?category=Sans+Serif&sidebar.open=true&selection.family=Josefin+Sans
+    Josefin Sans by Santiago Orozco: https://fonts.google.com/specimen/Josefin+Sans?category=Sans+Serif&sidebar.open=true&selection.family=Josefin+Sans#standard-styles 

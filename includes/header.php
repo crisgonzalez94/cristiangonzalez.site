@@ -16,14 +16,24 @@
     <!--Fontawesome-->
     <script src="https://kit.fontawesome.com/98373b9dc2.js" crossorigin="anonymous"></script>
 
+
+    <!--Textfont by google-->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <!--Here there custom bootstrap class for colors and backgrounds-->
+    <link rel="stylesheet" href="styles/bootstrap-class.css">
+
+    <!--Style-->
+    <link rel="stylesheet" href="styles/style.css">
+
     <title>Cristian Gonzalez</title>
 
   </head>
-  <body>
+  <body class="bg-bone">
     
     <header>
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-coal">
         <a class="navbar-brand" href="#">Cristian Gonzalez</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -51,16 +61,18 @@
 
           <!--social networks-->
           <div class="form-inline my-2 my-lg-0">
-            <a class="nav-link" target="_blank" href="https://www.facebook.com/cristiannazarenogonzalez94">
+
+            <!--Facebook-->
+            <a class="nav-link social-link" id='facebook-link' target="_blank" href="https://www.facebook.com/cristiannazarenogonzalez94" data-toggle="tooltip" data-placement="bottom" title="Talk to me on facebook!">
               <i class="fab fa-facebook-square"></i>
             </a>
-            <a class="nav-link" target="_blank" href="https://www.instagram.com/developeronfreetimes/">
+            <a class="nav-link social-link" id='facebook-link' target="_blank" href="https://www.instagram.com/developeronfreetimes/" data-toggle="tooltip" data-placement="bottom" title="Visit to me on Instagram!">
               <i class="fab fa-instagram"></i>
             </a>
-            <a class="nav-link" target="_blank" href="https://twitter.com/crisgonzalez94">
+            <a class="nav-link social-link" id='facebook-link' target="_blank" href="https://twitter.com/crisgonzalez94" data-toggle="tooltip" data-placement="bottom" title="Folow me on Twitter!">
               <i class="fab fa-twitter-square"></i>
             </a>
-            <a class="nav-link" target="_blank"  href="https://www.youtube.com/channel/UCTfVTTAkvF7KF4CF7U64ORQ?view_as=subscriber">
+            <a class="nav-link social-link" id='facebook-link' target="_blank"  href="https://www.youtube.com/channel/UCTfVTTAkvF7KF4CF7U64ORQ?view_as=subscriber" data-toggle="tooltip" data-placement="bottom" title="Visit my channel!">
               <i class="fab fa-youtube-square"></i>
             </a>
           </div>
