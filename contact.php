@@ -61,13 +61,15 @@
 
     </div>
 
-    <br>
+    <br>    
 
     <!--Other social networks-->
+    <h1></h1>
+
     <div class="row">
-        <button type="button" class="btn btn-primary">Primary</button>
-        <button type="button" class="btn btn-secondary">Secondary</button>
-        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-primary">Facebook</button>
+        <button type="button" class="btn btn-secondary">Instagram</button>
+        <button type="button" class="btn btn-success">Twitter</button>
     </div>
 
 </div>

@@ -30,6 +30,24 @@
     color: #426e86;
 }
 
+.login-button{
+    color: #2F3131;
+    background: #f9ba32;
+    padding-bottom: 0px;
+    margin-bottom: 7px;
+}
+
+.login-button:hover{
+    background: #2F3131;
+    color: #f9ba32;
+}
+
+.login-button-text{
+    font-size: 20px;
+}
+
+
+
 .card-img{
     max-width: 200px;
     max-height: 200px;

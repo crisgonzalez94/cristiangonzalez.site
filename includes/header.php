@@ -75,7 +75,18 @@
             <a class="nav-link social-link toolstips" target="_blank"  href="https://www.youtube.com/channel/UCTfVTTAkvF7KF4CF7U64ORQ?view_as=subscriber" data-toggle="tooltip" data-placement="bottom" title="Visit my channel!">
               <i class="fab fa-youtube-square"></i>
             </a>
+
+            <a class="nav-link social-link login-button toolstips" target="_blank"  href="https://www.youtube.com/channel/UCTfVTTAkvF7KF4CF7U64ORQ?view_as=subscriber" data-toggle="tooltip" data-placement="bottom" title="Visit my channel!">
+              
+            </a>
+
           </div>
+
+          
+          <?php
+            require 'includes/signup-login.php';
+          ?>
+
 
         </div>
       </nav>
